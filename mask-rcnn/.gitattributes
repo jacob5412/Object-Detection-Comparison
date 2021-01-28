@@ -1,1 +1,0 @@
-mask-rcnn/mask-rcnn-coco/frozen_inference_graph.pb filter=lfs diff=lfs merge=lfs -text
