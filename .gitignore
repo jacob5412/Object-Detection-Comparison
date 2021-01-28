@@ -132,3 +132,7 @@ dmypy.json
 .vscode
 yolo-object-detection/yolo-coco/yolov3.weights
 .DS_Store
+yolov2/darknet
+yolov2/libdarknet.so
+yolov2/cfg
+yolov2/yolov2.weights
