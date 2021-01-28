@@ -131,3 +131,4 @@ dmypy.json
 # project files
 .vscode
 yolo-object-detection/yolo-coco/yolov3.weights
+.DS_Store
