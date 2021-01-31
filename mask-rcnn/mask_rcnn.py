@@ -1,6 +1,5 @@
 # USAGE
-# python mask_rcnn.py --mask-rcnn mask-rcnn-coco --image images/example_01.jpg
-# python mask_rcnn.py --mask-rcnn mask-rcnn-coco --image images/example_03.jpg --visualize 1
+# python mask_rcnn.py --mask-rcnn mask-rcnn-coco --image ../Images/railway_crossing_8.jpg --output output/railway_crossing_8.jpg
 
 # import the necessary packages
 import numpy as np
@@ -144,13 +143,13 @@ for i in range(0, boxes.shape[2]):
 
         # draw the bounding box of the instance on the image
         color = [int(c) for c in color]
-        cv2.rectangle(clone, (startX, startY), (endX, endY), color, 2)
+        cv2.rectangle(clone, (startX, startY), (endX, endY), color, 3)
 
         # draw the predicted label and associated probability of the
         # instance segmentation on the image
         text = "{}: {:.4f}".format(LABELS[classID], confidence)
         cv2.putText(
-            clone, text, (startX, startY - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2
+            clone, text, (startX, startY - 5), cv2.FONT_HERSHEY_SIMPLEX, 1.5, color, 3
         )
 
         # show the output image
