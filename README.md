@@ -1,4 +1,6 @@
-# Comparison of object detection algorithms in Video Streams
+# Live Stream Processing Techniques to Assist Unmanned, Regulated Railway Crossings (Comparison of object detection algorithms)
+
+**Paper:** John J., Varkey M., Selvi M. (2021) Live Stream Processing Techniques to Assist Unmanned, Regulated Railway Crossings. In: Singh M., Tyagi V., Gupta P.K., Flusser J., Ören T., Sonawane V.R. (eds) Advances in Computing and Data Sciences. ICACDS 2021. Communications in Computer and Information Science, vol 1440. Springer, Cham. https://doi.org/10.1007/978-3-030-81462-5_17
 
 ## Algorithms
 
